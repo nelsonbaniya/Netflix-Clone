@@ -153,22 +153,83 @@ nav button {
     color: white;
     margin: 40px;
     text-align: center;
+    margin-top: 70px;
 }
 
 .reason-container {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .reason {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     margin: 20px;
+    margin-top: 30px;
     width: 250px;
     min-height: 200px;
     padding: 20px;
     border-radius: 16px;
-    background-color: #222;
+    background-color: #292424;
     text-align: left;
+}
+
+.faq {
+    color: white;
+    margin: 40px auto;
+    width: 85vw;
+}
+
+.faq>p {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    padding: 20px 20px 20px 0;
+}
+
+.faqustions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.faqustions p {
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    background-color: rgb(50, 50, 50);
+}
+
+.getStarted {
+    width: 85vw;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+
+.getStarted>p {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.getStarted .input {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.getStarted .input input {
+    width: 500px;
+    height: 40px;
+    background-color: rgb(21, 21, 21);
+    padding-left: 10px;
+}
+
+.getStarted .input button {
+    background-color: rgb(255, 24, 24);
+    width:150px;
+    font-size: 20px;
+    color: white;
 }
